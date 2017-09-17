@@ -13,7 +13,8 @@
     "test:unit": "jest --config=jest.json",
     "test:validate": "eslint 'src/**/*.js' 'test/**/*.js!(setup.js)'",
     "luke": "yarn --nolazy --inspect-brk=9229 run wdio",
-    "build": "rm -rf build && babel src --out-dir build/src"
+    "build": "rm -rf build && babel src --out-dir build/src",
+    "tsbuild": "rm -rf build && tsc"
   },
   "repository": {
     "type": "git",
